@@ -1,0 +1,60 @@
+.our-team {
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+  &__picture {
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  &__name {
+    font-size: 16px;
+    text-align: center;
+  }
+  &__job {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-team {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__picture {
+      background-color: white;
+      border-radius: 0 0 4px 4px;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    &__name {
+      font-size: 16px;
+      text-align: center;
+    }
+    &__job {
+      color: #757575;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 16px;
+    }
+  }
+}

@@ -1,0 +1,130 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--grey);
+  padding-bottom: 60px;
+  margin-top: 94px;
+  padding-top: 60px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 70px;
+
+  &__address {
+    color: var(--white);
+    display: block;
+    text-align: center;
+    line-height: 24px;
+    max-width: 246px;
+    margin-right: 0;
+  }
+  &__mail {
+    text-decoration: none;
+    color: var(--white);
+  }
+
+  &__telelephone {
+    text-decoration: none;
+    color: var(--white);
+    margin-top: 9px;
+  }
+
+  &__socialblock {
+    margin-top: 12px;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--white);
+  }
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  gap: 10px;
+  margin-left: 32px;
+  margin-bottom: 30px;
+
+  &__footer {
+    margin: 0;
+  }
+
+  &__svg--footer {
+    margin-top: 20px;
+    fill: var(--white);
+    background-color: #686565;
+
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      background-color: var(--lightblue);
+      fill: var(--white);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    background-color: var(--grey);
+    padding-bottom: 60px;
+    margin-top: 94px;
+    padding-top: 60px;
+    display: flex;
+    align-items: flex-start;
+    align-content: space-between;
+    gap: 70px;
+
+    &__address {
+      color: var(--white);
+      display: block;
+      line-height: 24px;
+      max-width: 246px;
+      margin-right: 0;
+    }
+    &__mail {
+      text-decoration: none;
+      color: var(--white);
+    }
+
+    &__telelephone {
+      text-decoration: none;
+      color: var(--white);
+      margin-top: 9px;
+    }
+
+    &__socialblock {
+      margin-top: 12px;
+      display: block;
+      font-size: 14px;
+      font-weight: bold;
+      color: var(--white);
+    }
+  }
+  .social-links {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    gap: 10px;
+    margin-left: 32px;
+    margin-bottom: 30px;
+
+    &__footer {
+      margin: 0;
+    }
+
+    &__svg--footer {
+      margin-top: 20px;
+      fill: var(--white);
+      background-color: #686565;
+
+      &:hover,
+      &:focus {
+        cursor: pointer;
+        background-color: var(--lightblue);
+        fill: var(--white);
+      }
+    }
+  }
+}

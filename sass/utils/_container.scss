@@ -1,0 +1,19 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+@media screen and (min-width: 1200px) {
+  .container__footer {
+    padding-top: 60px;
+    display: flex;
+    align-items: flex-start;
+    align-content: space-between;
+    gap: 70px;
+  }
+}
+
+.container__header {
+  display: flex;
+}
