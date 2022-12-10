@@ -1,46 +1,99 @@
-.contact {
-  display: flex;
-  justify-content: space-between;
-  gap: 50px;
-  align-items: center;
-  font-weight: 500;
-}
+@media screen and (min-width: 768px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+    align-items: center;
+    font-weight: 500;
+  }
 
-.contact__mail {
-  color: #757575;
-  text-decoration: none;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  gap: 10px;
-  fill: #757575;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .contact__mail {
+    color: #757575;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    fill: #757575;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
-  &:focus {
-    color: var(--lightblue);
-    fill: var(--lightblue);
+    &:hover,
+    &:focus {
+      color: var(--lightblue);
+      fill: var(--lightblue);
+    }
+  }
+
+  .contact__tel {
+    color: #757575;
+    text-decoration: none;
+    display: flex;
+    width: 160px;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    fill: #757575;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--lightblue);
+      fill: var(--lightblue);
+    }
+  }
+
+  .contact__icons {
+    --color2: #757575;
+    --color5: #757575;
   }
 }
-
-.contact__tel {
-  color: #757575;
-  text-decoration: none;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  gap: 10px;
-  fill: #757575;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    color: var(--lightblue);
-    fill: var(--lightblue);
+@media screen and (min-width: 1200px) {
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    font-weight: 500;
   }
-}
 
-.contact__icons {
-  --color2: #757575;
-  --color5: #757575;
+  .contact__mail {
+    color: #757575;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    fill: #757575;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--lightblue);
+      fill: var(--lightblue);
+    }
+  }
+
+  .contact__tel {
+    color: #757575;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    fill: #757575;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--lightblue);
+      fill: var(--lightblue);
+    }
+  }
+
+  .contact__icons {
+    --color2: #757575;
+    --color5: #757575;
+  }
 }

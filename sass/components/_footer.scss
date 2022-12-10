@@ -17,7 +17,6 @@
     display: block;
     text-align: center;
     line-height: 24px;
-    max-width: 246px;
     margin-right: 0;
   }
   &__mail {
@@ -37,6 +36,12 @@
     font-size: 14px;
     font-weight: bold;
     color: var(--white);
+  }
+
+  &__element {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
   }
 }
 .social-links {

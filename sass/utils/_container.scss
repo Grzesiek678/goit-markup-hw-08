@@ -4,6 +4,18 @@
   max-width: 1200px;
   padding: 0 15px;
 }
+
+.container__footer {
+  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .container__header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .container__footer {
     padding-top: 60px;
@@ -12,8 +24,8 @@
     align-content: space-between;
     gap: 70px;
   }
-}
 
-.container__header {
-  display: flex;
+  .container__header {
+    display: flex;
+  }
 }
